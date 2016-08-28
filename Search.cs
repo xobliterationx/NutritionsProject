@@ -47,6 +47,11 @@ namespace HranitelniDobavki
             else MessageBox.Show("Add Price");
             dataGridView1.Sort(dataGridView1.Columns["Column4"], ListSortDirection.Ascending);
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
     }
 
