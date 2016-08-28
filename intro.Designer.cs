@@ -36,9 +36,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(314, 307);
+            this.button1.Location = new System.Drawing.Point(31, 28);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(147, 34);
             this.button1.TabIndex = 0;
             this.button1.Text = "Begin";
             this.button1.UseVisualStyleBackColor = true;
@@ -46,9 +46,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(563, 307);
+            this.button2.Location = new System.Drawing.Point(958, 28);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(167, 34);
             this.button2.TabIndex = 1;
             this.button2.Text = "Info";
             this.button2.UseVisualStyleBackColor = true;
@@ -56,18 +56,21 @@
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(418, 60);
+            this.label1.AutoEllipsis = true;
+            this.label1.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label1.Location = new System.Drawing.Point(499, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 13);
+            this.label1.Size = new System.Drawing.Size(169, 34);
             this.label1.TabIndex = 2;
             this.label1.Text = "Nutritions";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // toolStrip1
             // 
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1085, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(1159, 25);
             this.toolStrip1.TabIndex = 4;
             this.toolStrip1.Text = "ezpz";
             // 
@@ -75,13 +78,19 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.BackgroundImage = global::HranitelniDobavki.Properties.Resources.hranitelni_dobavki_fakti_informacia;
-            this.ClientSize = new System.Drawing.Size(1085, 544);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ClientSize = new System.Drawing.Size(1159, 471);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.MaximumSize = new System.Drawing.Size(1175, 510);
+            this.MinimumSize = new System.Drawing.Size(1175, 510);
             this.Name = "intro";
+            this.RightToLeftLayout = true;
             this.Text = "intro";
             this.Load += new System.EventHandler(this.intro_Load);
             this.ResumeLayout(false);

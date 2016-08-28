@@ -81,7 +81,7 @@ namespace HranitelniDobavki
                 all += broi[i];
             }
             statsLB.Items.Add("---------------");
-            statsLB.Items.Add("obshto v kataloga:" + all);
+            statsLB.Items.Add("Total in catalog:" + all);
            
 
         }
@@ -128,7 +128,7 @@ namespace HranitelniDobavki
 
         private void exitToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            if (MessageBox.Show("do u really wanna close this app???", "exit", MessageBoxButtons.OKCancel) == DialogResult.OK)
+            if (MessageBox.Show("Do you really want to close this app???", "Exit", MessageBoxButtons.OKCancel) == DialogResult.OK)
             {
                 Application.Exit();
             }
