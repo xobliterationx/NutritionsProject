@@ -46,27 +46,27 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(24, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 13);
+            this.label1.Size = new System.Drawing.Size(72, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "naimenovanie";
+            this.label1.Text = "ProductName";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(24, 56);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 13);
+            this.label2.Size = new System.Drawing.Size(36, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "grupa";
+            this.label2.Text = "Group";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(24, 86);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 13);
+            this.label3.Size = new System.Drawing.Size(70, 13);
             this.label3.TabIndex = 2;
-            this.label3.Text = "proizvoditel";
+            this.label3.Text = "Manufacturer";
             // 
             // label4
             // 
@@ -75,16 +75,16 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(31, 13);
             this.label4.TabIndex = 3;
-            this.label4.Text = "cena";
+            this.label4.Text = "Price";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(23, 147);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(55, 13);
+            this.label5.Size = new System.Drawing.Size(44, 13);
             this.label5.TabIndex = 4;
-            this.label5.Text = "nalichnost";
+            this.label5.Text = "InStock";
             // 
             // naimenovanie
             // 
@@ -118,21 +118,21 @@
             // 
             this.grupa.Location = new System.Drawing.Point(151, 53);
             this.grupa.Name = "grupa";
-            this.grupa.Size = new System.Drawing.Size(100, 20);
+            this.grupa.Size = new System.Drawing.Size(121, 20);
             this.grupa.TabIndex = 7;
             // 
             // cena
             // 
             this.cena.Location = new System.Drawing.Point(151, 113);
             this.cena.Name = "cena";
-            this.cena.Size = new System.Drawing.Size(100, 20);
+            this.cena.Size = new System.Drawing.Size(121, 20);
             this.cena.TabIndex = 8;
             // 
             // nalichnost
             // 
             this.nalichnost.Location = new System.Drawing.Point(151, 147);
             this.nalichnost.Name = "nalichnost";
-            this.nalichnost.Size = new System.Drawing.Size(100, 20);
+            this.nalichnost.Size = new System.Drawing.Size(121, 20);
             this.nalichnost.TabIndex = 9;
             // 
             // button1
@@ -149,7 +149,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(308, 271);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.nalichnost);
             this.Controls.Add(this.cena);
